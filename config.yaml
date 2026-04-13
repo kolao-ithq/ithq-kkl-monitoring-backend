@@ -1,0 +1,46 @@
+# Keys match internal/core/config/config.go (Server, Database, Postgres, Redis, File, APIKey, JWT)
+
+server:
+  port:
+  env:
+  readTimeout:
+  writeTimeout:
+
+database:
+  host:
+  port:
+  user:
+  password:
+  dbname:
+  sslmode:
+  timezone:
+
+postgres:
+  host:
+  port:
+  user:
+  password:
+  dbname:
+  sslmode:
+  timezone:
+
+redis:
+  host:
+  port:
+  password:
+  db:
+  clearOnStart:
+
+file:
+  host:
+  port:
+  key:
+  bucket:
+  pathIp:
+
+apiKey:
+  value:
+
+jwt:
+  secret:
+  refreshSecret:
